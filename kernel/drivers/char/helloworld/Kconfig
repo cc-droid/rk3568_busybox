@@ -1,0 +1,5 @@
+config HELLOWORLD
+    bool "hello world"
+    default y
+    help 
+        "hello world"

@@ -6,7 +6,7 @@
 menu "Character devices"
 
 source "drivers/tty/Kconfig"
-
+source "drivers/char/helloworld/Kconfig"
 config DEVMEM
 	bool "/dev/mem virtual device support"
 	default y
